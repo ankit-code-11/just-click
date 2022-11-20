@@ -1,7 +1,13 @@
+import React from 'react';
+import Navbar from './Components/Navbar';
+import Container from './Components/Container'
+
 function App() {
   return (
     <>
-    hello world</>
+      <Navbar />
+      <Container />
+    </>
   );
 }
 
